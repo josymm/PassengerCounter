@@ -32,10 +32,9 @@ body {
     
 
     button {
-        width: 25vw;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 0.5rem;
-        margin: auto;
+        margin: 0.5rem 0.2rem;
         font-family: $font;
         border: none;
 
@@ -69,7 +68,9 @@ body {
             flex-direction: row;
         }
 
-       
+       button {
+        width: 12vw;
+       }
     }
     
 }
