@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     
 
     button {
@@ -35,7 +36,6 @@ body {
         border-radius: 0.5rem;
         margin: auto;
         font-family: $font;
-        text-align: center;
     
     }
 
@@ -74,10 +74,3 @@ body {
     
 }
 
-@media all and (max-width: 600px) {
-    button {
-        p {text-align: center;
-        margin: auto;
-    }
-}
-}
