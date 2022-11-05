@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    
     
 
     button {
@@ -42,6 +42,7 @@ body {
     .btn {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     #increment-btn {
@@ -63,12 +64,13 @@ body {
         .btn {
             display: flex;
             flex-direction: row;
+            text-align: center;
         }
 
         button {
             width: 12vw;
             margin: auto;
-            text-align: center;
+            
         }
     }
     
