@@ -77,3 +77,14 @@ body {
     
 }
 
+@media all and (max-width: 400px){
+    .btn {
+        text-align: center;
+
+        button {
+            display: inline-block;
+        }
+    }
+
+}
+
