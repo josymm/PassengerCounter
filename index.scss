@@ -1,0 +1,73 @@
+$primary-color: #5E0B15;
+$secondary-color: #BC8034;
+$text-color: #D9CAB3;
+$font: Helvetica, sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/bcg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $text-color;
+    font-family: $font;
+    font-weight: lighter;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    button {
+        width: 20vw;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        margin: 0.4rem 0.3rem;
+        font-family: $font;
+    
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #increment-btn {
+        background-color: $primary-color;
+        
+    }
+
+    #save-btn {
+        background-color: $secondary-color;
+    }
+
+    #save-el {
+        font-style: bold;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .container{
+        .btn {
+            display: flex;
+            flex-direction: row;
+        }
+
+        button {
+            width: 12vw;
+            margin: 0.8rem 0.3rem;
+        }
+    }
+    
+}

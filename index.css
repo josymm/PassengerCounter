@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(images/bcg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #D9CAB3;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container button {
+  width: 20vw;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0.4rem 0.3rem;
+  font-family: Helvetica, sans-serif;
+}
+.container .btn {
+  display: flex;
+  flex-direction: column;
+}
+.container #increment-btn {
+  background-color: #5E0B15;
+}
+.container #save-btn {
+  background-color: #BC8034;
+}
+.container #save-el {
+  font-style: bold;
+}
+
+@media all and (min-width: 1200px) {
+  .container .btn {
+    display: flex;
+    flex-direction: row;
+  }
+  .container button {
+    width: 12vw;
+    margin: 0.8rem 0.3rem;
+  }
+}/*# sourceMappingURL=index.css.map */
