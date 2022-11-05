@@ -29,7 +29,7 @@ body {
 .container button {
   padding: 0.5rem;
   border-radius: 0.3rem;
-  margin: 0.7rem 0.5rem;
+  margin: 0.4rem 0.5rem;
   font-family: Helvetica, sans-serif;
   border: none;
   font-weight: bold;
@@ -55,5 +55,6 @@ body {
   }
   .container button {
     width: 12vw;
+    margin: 0.7rem 0.5rem;
   }
 }/*# sourceMappingURL=index.css.map */
