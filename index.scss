@@ -17,6 +17,7 @@ body {
     color: $text-color;
     font-family: $font;
     font-weight: lighter;
+    text-align: center;
     
 }
 
@@ -43,7 +44,7 @@ body {
     .btn {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        
     }
 
     #increment-btn {
@@ -65,7 +66,6 @@ body {
         .btn {
             display: flex;
             flex-direction: row;
-            text-align: center;
         }
 
         button {
@@ -77,14 +77,4 @@ body {
     
 }
 
-@media all and (max-width: 400px){
-    .btn {
-        text-align: center;
-
-        button {
-            display: inline-block;
-        }
-    }
-
-}
 
